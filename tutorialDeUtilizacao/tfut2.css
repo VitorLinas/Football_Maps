@@ -1,0 +1,55 @@
+body {
+    background-color: #383838;
+}
+
+#logof {
+    margin-top: 2pc;
+}
+
+#en {
+    margin-top: 3%;
+    color: #1ECF99;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#tl {
+
+    margin-top: 2pc;
+    color: #1ECF99;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+#ptl {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+#rs1 {
+
+    margin-top: 2pc;
+    color: #1ECF99;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#rs1p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#rs2 {
+
+    margin-top: 3pc;
+    color: #1ECF99;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#obs {
+
+    margin-top: 4pc;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
