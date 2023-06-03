@@ -150,10 +150,12 @@ button {
 
     font-size: 200%;
     position: fixed;
-    bottom: 1em;
+    bottom: 20px;
     right: 0.5em;
     z-index: 2;
     color: #1ecf99;
+
+  
 }
 
 .plus-button i, .bi-person-circle, .bi-search{
@@ -256,14 +258,12 @@ hr {
         display: none;
      }
 
-     .plus-button {
+     /* .plus-button {
         font-size: 200%;
         position: fixed;
         bottom: 55px;
         right: 40px;
-    
-
-    }
+    } */
     
     
 }
