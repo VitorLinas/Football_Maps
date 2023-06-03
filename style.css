@@ -258,12 +258,13 @@ hr {
         display: none;
      }
 
-     /* .plus-button {
+     .plus-button {
         font-size: 200%;
         position: fixed;
         bottom: 55px;
         right: 40px;
-    } */
+      
+    }
     
     
 }
