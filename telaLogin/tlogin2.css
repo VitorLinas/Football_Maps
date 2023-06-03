@@ -22,6 +22,11 @@ body{background-color: #383838;}
   color: white;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 #fpassword{
     margin-top: 3%;
     color: white;

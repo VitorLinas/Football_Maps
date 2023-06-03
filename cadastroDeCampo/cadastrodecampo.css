@@ -38,11 +38,18 @@ body {
 }
 
 .voltar{
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    top: 0;
-    left: 0;
+    width: 40px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.voltar:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
 }
 
 button {

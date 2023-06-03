@@ -7,6 +7,8 @@
 }
 
 
+
+
 .input-group input {
 
     border: 0px;
@@ -158,8 +160,16 @@ button {
   
 }
 
+.apb{
+    color: #1ecf99;
+}
+
 .plus-button i, .bi-person-circle, .bi-search{
     cursor: pointer;
+}
+
+.bi-person-circle{
+    color: #ffffff;
 }
 
 .max-text {
@@ -188,10 +198,40 @@ hr {
     color:#ffffff;
 }
 
+footer {
+    padding-top: 30px;
+    display: flex; 
+    justify-content: space-around;
+    
+  }
+  
+footer a {
+    text-decoration: none;
+    color: #c3b7b7;   
+}
+
+footer a:hover{
+    color: #1ecf99;
+}
+
 @media(max-width: 1500px){
     .image img {
         
         margin-left: 30px; 
+    }
+}
+
+
+@media(max-width: 1000px){
+   
+
+    footer, footer a{
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    footer a {
+        font-size: 15px;
     }
 }
 
@@ -201,6 +241,8 @@ hr {
         height: 300px; 
         margin-left: 20px; 
     }
+    
+   
 }
 
 @media(max-width: 700px){
@@ -219,14 +261,9 @@ hr {
 
     }
 
-    .card {
-
-       
+    .card {   
         width: 80%;
-    
     }
-
-   
 
     .max-text {
         margin: auto;
@@ -242,15 +279,12 @@ hr {
     .text h1{
         margin: auto;
         width: 70%;
-    
     }
 
     .max-text {
-
         max-height: 10rem;
         overflow:visible;
-        margin-bottom: 6em;
-        
+        margin-bottom: 6em;      
     }
 
     .logo{
@@ -263,8 +297,9 @@ hr {
         position: fixed;
         bottom: 55px;
         right: 40px;
-      
     }
     
     
 }
+
+
