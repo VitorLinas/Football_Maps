@@ -16,6 +16,11 @@ body{background-color: #383838;}
      color: white;
 }
 
+#cc a{
+    color: white;
+    text-decoration: none;
+}
+
 #fpassword{
     margin-top: 3%;
     color: white;

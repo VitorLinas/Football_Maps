@@ -16,7 +16,10 @@ body{background-color: #383838;}
   margin-top: 1pc;
 }
 
-
+#cc a{
+    color: white;
+    text-decoration: none;
+}
 
 #flogin{
     color: white;
