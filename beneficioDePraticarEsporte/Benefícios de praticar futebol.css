@@ -36,17 +36,26 @@ body {
 
 }
 
-.voltar{
+#backIcon{
     width: 40px;
     margin: 15px;
     cursor: pointer;
 }
 
-.voltar:hover{
+#backIcon:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     -webkit-transition: 0.2s ease-in;
     -moz-transition: 0.2s ease-in;
     -o-transition: 0.2s ease-in;
     transition: 0.2s ease-in;
+}
+
+@media(max-width: 700px){
+
+    #backIcon{
+        width: 30px;
+        margin: 10px;
+        margin-left: -25px;
+    }
 }

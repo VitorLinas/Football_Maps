@@ -2,9 +2,6 @@ body {
     background-color: #383838;
 }
 
-#logof {
-    margin-top: 2pc;
-}
 
 #en {
     margin-top: 3%;
@@ -20,7 +17,20 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#backIcon{
+    width: 40px;
+    margin: 15px;
+    cursor: pointer;
+}
 
+#backIcon:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
 
 #ptl {
     color: white;
@@ -55,3 +65,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@media(max-width: 700px){
+
+
+
+    #backIcon{
+        width: 30px;
+        margin: 10px;
+        
+    }
+}
