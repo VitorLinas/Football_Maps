@@ -1,5 +1,6 @@
 body {
     background-color: #383838;
+    touch-action: pan-y;
 }
 
 
@@ -75,3 +76,4 @@ body {
         
     }
 }
+
