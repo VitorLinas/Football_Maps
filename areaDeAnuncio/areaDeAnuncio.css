@@ -104,6 +104,11 @@ body{
     margin: 40px;
     cursor: pointer;
 }
+
+button a{
+    text-decoration: none;
+    color: #000000;
+}
   
 
 @media(max-width: 1200px){
