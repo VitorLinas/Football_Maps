@@ -7,8 +7,6 @@
 }
 
 
-
-
 .input-group input {
 
     border: 0px;
@@ -155,10 +153,9 @@ button {
     bottom: 20px;
     right: 0.5em;
     z-index: 2;
-    color: #1ecf99;
-
-  
+    color: #1ecf99; 
 }
+  
 
 .apb{
     color: #1ecf99;
@@ -297,9 +294,45 @@ footer a:hover{
         position: fixed;
         bottom: 55px;
         right: 40px;
+    
     }
     
     
 }
 
 
+@media(max-width: 500px){ 
+
+    .plus-button {
+        bottom: 0.5em;
+        right: 0.5em;
+    }
+  
+   main {
+      overflow-y:hidden;
+      scroll-behavior:smooth;
+      touch-action: pan-y;
+      scrollbar-width: none;
+    }
+
+    main::-webkit-scrollbar {
+        width: 0; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
