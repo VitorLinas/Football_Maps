@@ -1,3 +1,4 @@
+
 class login {
 
     constructor(form, fields) {
@@ -10,8 +11,8 @@ class login {
         let self = this;
         const logi = document.querySelector('#login');
         const passw = document.querySelector('#password');
-        const log = localStorage.getItem('auth1');
-        const pas = localStorage.getItem('auth2');
+        var auth1 = localStorage.getItem('auth1');
+        var auth2 = localStorage.getItem('auth2');
 
         this.form.addEventListener("submit", (e) => {
             e.preventDefault();
@@ -23,13 +24,17 @@ class login {
                     erro++;
                 }
             });
-            if (erro == 0 && logi.value == log && passw == pas) {
-                localStorage.setItem("uid", 1);
+
+            // Tentei checar se era igual com o (&& auth1 == logi && auth2 == passw)
+            if (erro == 0) {
+                localStorage.setItem('uid', logi.value);
                 this.form.submit();
             }
-            if (logi != log || passw != pas) {
-                alert("O email, ou senha, não bate(m) com os cadastrados")
-            }
+
+            // Estava sempre entrando nessa parte, mesmo com os campos iguais
+            /* if (logi != auth1 || passw != auth2) {
+                alert("O email, ou senha, não bate(m) com os cadastrados");
+            } */
         });
     }
 
