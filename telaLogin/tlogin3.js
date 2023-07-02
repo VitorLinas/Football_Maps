@@ -10,8 +10,8 @@ class login {
         let self = this;
         const logi = document.querySelector('#login');
         const passw = document.querySelector('#password');
-        const log = localStorage.getItem("auth1");
-        const pas = localStorage.getItem("auth2");
+        const log = localStorage.getItem('auth1');
+        const pas = localStorage.getItem('auth2');
 
         this.form.addEventListener("submit", (e) => {
             e.preventDefault();
