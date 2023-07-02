@@ -88,3 +88,12 @@ window.addEventListener('resize', function() {
 });
 
 
+
+
+
+function criar() {
+    window.alert("Faça o login ou cadastre-se!")
+    window.location.href = "/telaLogin/tlogin.html";
+
+}
+
