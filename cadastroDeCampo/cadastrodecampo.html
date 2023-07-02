@@ -12,8 +12,8 @@
   <div class="content">  
     <div class="img" >
         <div class="conteudo">
-            <form action="upload.php" method="POST" enctype="multipart/form-data">
-                <input type="file" name="campo_imagem" accept="image/*">
+            <form action="upload.php" method="POST" enctype="multipart/form-data" id="formulario">
+                <input type="file" name="campo_imagem" accept="image/*" id="campo_imagem">
             </form>
         </div>  
         <div class="text_img">
@@ -50,4 +50,6 @@
     <div class="button">
         <button id="botao-enviar">Criar</button>
     </div>
+
+    <script src="../script.js"></script>
 

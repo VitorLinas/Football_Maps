@@ -62,7 +62,7 @@ button {
     @media (max-width: 767px) {
         weight: 100%
     } 
-
+    cursor: pointer;
 }
 
 .button {
