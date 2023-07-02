@@ -349,10 +349,6 @@ footer a:hover{
 
 
 
-
-
-/* ALTERAÇÕES  */
-
 .navheader {
     position: fixed;
     top: 0;
@@ -377,7 +373,13 @@ footer a:hover{
     border-bottom: #ffffff 1.5px  solid;
   }
   
-    
 
-
+  ::-webkit-scrollbar{
+    background-color: rgb(23, 22, 22);
+    width: 15px;
+  }
   
+  ::-webkit-scrollbar-thumb{
+    background-color: #1ecf99;
+    border-radius: 5px;
+  }

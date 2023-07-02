@@ -10,17 +10,6 @@ body{background-color: #383838;}
    
 }
 
-#cc{
-  margin-top: 1pc;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-  color: white;
-}
-
-#cc a{
-    text-decoration: none;
-    color: white;
-}
-
 
 #fpassword{
     margin-top: 3%;
@@ -35,6 +24,7 @@ body{background-color: #383838;}
 }
 
 #blogin{
+    margin-bottom: 2pc;
     margin-top: 2pc;
     color: black;
     background-color: #1ECF99;
