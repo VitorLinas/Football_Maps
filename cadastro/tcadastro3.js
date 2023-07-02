@@ -25,8 +25,8 @@ class login {
                 }
             });
             if (erro == 0) {
-                localStorage.setItem("auth1", lform.value);
-                localStorage.setItem("auth2", pform.value);
+                localStorage.setItem('auth1', lform.value);
+                localStorage.setItem('auth2', pform.value);
                 this.form.submit();
             }
         });
